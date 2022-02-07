@@ -24,7 +24,7 @@ function Post({username, userImg, img, caption, verified}) {
             <DotsHorizontalIcon className="h-5"/>
         </div>
         {/* img */}
-        <img src={img} className="object-cover w-full" alt="post image" />
+        <img src={img} className="object-cover  w-full" alt="post image" />
 
         {/* Buttons */}
         <div className="flex items-center justify-between px-4 pt-4">
